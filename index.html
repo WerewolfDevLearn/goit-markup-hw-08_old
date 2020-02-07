@@ -90,21 +90,22 @@
           </li>
         </ul>
       </section>
-      <section class="collection new-products">
-        <h2>New collection</h2>
-        <ul class="flex container new-product-list">
-          <li class="product">
-            <a href="#" class="product-link">
-              <div class="img-container">
+      <section class="collection container new-products">
+        <h2 class="collection__header">New collection</h2>
+        <ul class="flex new-products-list">
+          <li class="product__item">
+            <a href="#" class="product__link">
+              <div class="product__img-container">
                 <img
                   src="./images/content/new-collection/new-collection01.png"
                   alt="shoes"
                   width="255"
+                  class="product__image"
                 />
               </div>
-              <div class="description-price">
-                <h3 class="description">Blue Tshirt</h3>
-                <p class="price">$26</p>
+              <div class="product__description-price">
+                <h3 class="product__description">Blue Tshirt</h3>
+                <p class="product__price">$26</p>
               </div>
             </a>
             <div class="interactive">
@@ -180,9 +181,8 @@
         </ul>
       </section>
       <section class="collection container products">
-        <h2>Featured products</h2>
-
-        <ul class="flex container list-products">
+        <h2 class="collection__header">Featured products</h2>
+        <ul class="flex list-products">
           <li class="product">
             <a href="#" class="product-link">
               <div class="img-container">
@@ -323,58 +323,59 @@
           </li>
         </ul>
       </section>
-      <section class="collection news">
-        <h2>Lastest News</h2>
+      <section class="collection container news">
+        <h2 class="collection__header">Lastest News</h2>
 
-        <ul class="flex container article-list">
+        <ul class="flex article-list">
           <li class="article">
-            <img src="./images/blog/blog01.png" alt="laptop with map" width="350" />
-            <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h3>
+            <img src="./images/blog/blog01.png" alt="laptop with map" width="350" class="article__img"/>
+            <h3 class="article__header">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h3>
 
-            <p>
+            <p class="article__text">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit necessitatibus error
               repellat quidem ducimus? Numquam, eius dicta. Delectus ex fuga
             </p>
-            <a href="" class="button">Read More</a>
+            <a href="" class="article__button">Read More</a>
           </li>
           <li class="article">
             <img
               src="./images/blog/blog02.png"
               alt="two girls are reading something "
               width="347"
+              class="article__img"
             />
-            <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h3>
+            <h3 class="article__header">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h3>
 
-            <p>
+            <p class="article__text">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit necessitatibus error
               repellat quidem ducimus? Numquam, eius dicta. Delectus ex fuga
             </p>
-            <a href="" class="button">Read More</a>
+            <a href="" class="article__button">Read More</a>
           </li>
           <li class="article">
-            <img src="./images/blog/blog03.png" alt="Buss passing by" width="347" />
-            <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h3>
+            <img src="./images/blog/blog03.png" alt="Buss passing by" width="347" class="article__img" />
+            <h3 class="article__header">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h3>
 
-            <p>
+            <p class="article__text">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit necessitatibus error
               repellat quidem ducimus? Numquam, eius dicta. Delectus ex fuga
             </p>
-            <a href="" class="button">Read More</a>
+            <a href="" class="article__button">Read More</a>
           </li>
         </ul>
       </section>
       <footer class="collection footer">
-        <h2>Newsletter</h2>
-        <p>Follow a collection of news & promotions</p>
-        <form class="form-for-email">
+        <h2 class="collection__header footer__header--decoration">Newsletter</h2>
+        <p class="footer__text">Follow a collection of news & promotions</p>
+        <form class="footer__form-for-email">
           <input
             type="email"
             placeholder="Enter your email here"
             name="email"
             id="email"
-            class="your-email"
+            class="footer__your-email"
           />
-          <button type="submit" class="email-button"></button>
+          <button type="submit" class="footer__email-button"></button>
         </form>
       </footer>
     </main>
